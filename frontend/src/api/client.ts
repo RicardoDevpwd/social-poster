@@ -1,7 +1,8 @@
 import axios from "axios";
 
 const api = axios.create({
-  baseURL: "/api",
+  // COLE O LINK DO SEU BACKEND ABAIXO (aquele da tela amarela)
+  baseURL: "https://social-poster-production-204f.up.railway.app/api",
 });
 
 api.interceptors.request.use((config) => {
